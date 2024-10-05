@@ -7,6 +7,11 @@ public class HelloWorldController
 @RequestMapping("/")
 public String hello() 
 {
-return "Hello javaTpoint";
+return "Hello javaTpointsssss";
+}
+@RequestMapping("/hello")
+public String hello1() 
+{
+return "Hello 2nd Method";
 }
 }
